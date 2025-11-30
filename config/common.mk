@@ -141,7 +141,6 @@ PRODUCT_PACKAGES += \
 # Lineage packages
 ifeq ($(PRODUCT_IS_ATV),)
 PRODUCT_PACKAGES += \
-    ExactCalculator \
     Jelly
 endif
 
@@ -270,7 +269,9 @@ PRODUCT_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     DocumentsUIOverlay \
     NetworkStackOverlay \
-    PermissionControllerOverlay
+    PermissionControllerOverlay \
+    FontGoogleSansOverlay \
+    FontGoogleSansFlexOverlay
 
 # Translations
 CUSTOM_LOCALES += \
